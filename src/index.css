@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+* {
+  font-family: 'Golos Text', sans-serif;
+}
+
+body {
+  background-color: #cec5bc;
+}
+
+input[type='checkbox'] {
+  width: 17px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+select option {
+  font-weight: bold;
+}
+
+.family {
+  font-family: 'Tilt Prism', cursive;
+}
