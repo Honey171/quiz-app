@@ -111,6 +111,10 @@ function Questions({ quizFinished, setQuizFinished, setTrueAnswerCount }) {
                 selectedAnswerIndex === idx && !isAnswerSubmitted
                   ? 'bg-teal-500 text-slate-900'
                   : ''
+              } ${
+                isAnswerSubmitted && answer === correctAnswer
+                  ? 'bg-green-700'
+                  : ''
               }`}
             >
               {answer}
